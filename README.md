@@ -1,9 +1,9 @@
-# MorphoMAC-
+# MorphoMAC
 The provided Python script is a command-line tool called "MorphoMAC" designed to change the MAC address of network interfaces (eth0 or wlan0) on a Linux system. It utilizes the subprocess module to interact with system commands and the requests module for handling HTTP requests.
 The tool displays a banner with the title "MorphoMAC" and developer information. It then prompts the user to choose their network connection type (eth0, wlan0) or exit the tool. After selecting the network interface, the tool retrieves the current MAC address, prompts the user to input a new MAC address, and proceeds to change the MAC address using the ifconfig command.
 
 
-# Steps for Using the Tool:
+## Steps for Using the Tool:
 
 1.Ensure Python 3 is installed on your system.
 
