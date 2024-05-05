@@ -3,7 +3,7 @@ The provided Python script is a command-line tool called "MorphoMAC" designed to
 The tool displays a banner with the title "MorphoMAC" and developer information. It then prompts the user to choose their network connection type (eth0, wlan0) or exit the tool. After selecting the network interface, the tool retrieves the current MAC address, prompts the user to input a new MAC address, and proceeds to change the MAC address using the ifconfig command.
 
 
-Steps for Using the Tool:
+# Steps for Using the Tool:
 
 1.Ensure Python 3 is installed on your system.
 
@@ -24,11 +24,11 @@ Steps for Using the Tool:
 9.Verify the MAC address change using the ifconfig command.
 
 
-Installation:
+# Installation:
 
 Clone the Repository: Clone the repository containing the "MorphoMAC" tool to your local machine. You can do this using the following command:
 
-    git clone https://github.com/YourUsername/MorphoMAC.git
+    git clone https://github.com/KaranParelkar/MorphoMAC.git
 
 Navigate to the Directory: Enter the directory where the tool is located:
 
@@ -51,7 +51,7 @@ Usage:
 
 Run the Script: Execute the script by running the following command:
 
-    python3 morphomac.py
+    python3 MorphoMAC.py
 
 Follow On-Screen Instructions: The tool will display a banner with information about the developer and instructions. Follow the on-screen prompts to select your network connection type (eth0, wlan0) or exit the tool.
 
@@ -63,7 +63,7 @@ Verify Changes: You can verify that the MAC address has been changed successfull
 
 
 
-Contributions:
+# Contributions:
 
 Contributions to the "MorphoMAC" tool are welcome! You can contribute by:
 
