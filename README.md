@@ -47,7 +47,7 @@ Install Dependencies: Ensure that Python 3 is installed on your system. If the r
     pip install requests
 
 
-Usage:
+# Usage:
 
 Run the Script: Execute the script by running the following command:
 
