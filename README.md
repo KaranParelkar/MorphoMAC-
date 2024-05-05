@@ -6,13 +6,22 @@ The tool displays a banner with the title "MorphoMAC" and developer information.
 Steps for Using the Tool:
 
 1.Ensure Python 3 is installed on your system.
+
 2.Clone or download the script from GitHub.
+
 3.Open a terminal and navigate to the directory containing the script.
-3.Make the script executable using the command: chmod +x morphomac.py.
-4.Run the script using the command: ./morphomac.py.
-5.Follow the on-screen instructions to choose the network interface and input the new MAC address.
-6.The tool will display messages indicating the MAC address change process.
-7.Verify the MAC address change using the ifconfig command.
+
+4.Make the script executable using the command: chmod +x morphomac.py.
+
+5.Gain the root access for running this tool by simply using command: sudo su
+
+6.Run the script using the command: python3 morphomac.py.
+
+7.Follow the on-screen instructions to choose the network interface and input the new MAC address.
+
+8.The tool will display messages indicating the MAC address change process.
+
+9.Verify the MAC address change using the ifconfig command.
 
 
 Installation:
@@ -42,7 +51,7 @@ Usage:
 
 Run the Script: Execute the script by running the following command:
 
-    ./morphomac.py
+    python3 morphomac.py
 
 Follow On-Screen Instructions: The tool will display a banner with information about the developer and instructions. Follow the on-screen prompts to select your network connection type (eth0, wlan0) or exit the tool.
 
